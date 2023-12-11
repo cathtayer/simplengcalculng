@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator by Catherine Tayer</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body onload="alert('Input two integers to calculate them base on your requirement from the dropdown.');">
+
+    <h1>Catherine Tayer's Simple Calculator</h1>
+
+    <!---Dropdown--->
+    <div>
+        <h2>Choose operation:</h2>
+        <select id="operation">
+            <option>Addition</option>
+            <option>Subtraction</option>
+            <option>Multiplication</option>
+            <option>Division</option>
+        </select>
+
+    <!---Inputs--->
+        <label for="num1"><h3>First Integer:</h3></label>
+        <input type="number" id="num1">
+        <br>
+        <label for="num2"><h3>Second Integer:</h3></label>
+        <input type="number" id="num2">
+        <br>
+
+    <!---Calculate button--->
+        <input type="button" id="compute" value="Calculate" onclick="calculate()">
+        <h2>OUTPUT:</h2>
+        <h1 id="print"></h1>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
