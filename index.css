@@ -1,9 +1,12 @@
 body {
-    background-color:azure;
+    background-color: azure;
     text-align: center;
     letter-spacing: 1px;
-    color:#396061;
-    margin-top: 5%;
+    color: #396061;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
 div {
@@ -12,8 +15,6 @@ div {
     max-width: 500px;
     border-radius: 10px;
     box-shadow: #5f9ea0 10px 10px;
-    margin-top: 5%;
-    margin-left: 30%;
 }
 
 input {
